@@ -1,0 +1,56 @@
+body{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    flex-direction: column;
+}
+.container{
+    display: grid;
+    grid-template-columns: repeat(7, 50px);
+    grid-template-rows: repeat(1, 50px);
+    gap: 5px;
+    width: max-content;
+    
+    border: 2px solid black;
+    padding: 5px;
+}
+.box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid black;
+    font-weight: bold;
+    color: darkgreen;
+}
+h1{
+    transition: all 0.25s;
+    font-size: 30px;
+}
+h1:hover{
+    font-size: 2em;
+}
+#userint{
+    margin: 10px;
+    width: 300px;
+    height: 20px;
+    padding: 5px;
+    text-align: center;
+}
+
+#submitbutton:active{
+    background-color: rgb(104, 205, 171);
+}
+.box:hover{
+    background-color: aquamarine;
+}
+.box:active{
+    background-color: rgb(104, 205, 171);
+}
+#test{
+    border: 2px solid darkgreen;
+    padding: 2px 15px;
+    background-color: aquamarine;
+    font-weight: bold;
+}
